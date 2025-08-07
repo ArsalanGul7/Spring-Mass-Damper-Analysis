@@ -1,5 +1,5 @@
 %% Vibration Analysis of a Spring-Mass-Damper System
-% Author:    [Your Name]
+% Author:    Syed Arsalan Gul
 % Date:      06/08/2025
 % About:     This script simulates a 1-DOF spring-mass-damper system subjected to
 %            harmonic excitation. It solves the motion numerically, and performs
@@ -155,4 +155,5 @@ text(mean(xl), yl(2)*0.95, ...
     'FontWeight', 'bold', 'BackgroundColor', 'white');
 
 %% ---------------- SAVE ANALYSIS ------------------
+
 save('SpringMassDamper_Analysis', 'V', 't', 'x', 'f', 'P1');
